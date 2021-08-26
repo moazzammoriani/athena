@@ -1,0 +1,1 @@
+- The owl from the athena logo comes from https://dribbble.com/shots/12479107-Owl/attachments/4088935?mode=media
