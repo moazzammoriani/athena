@@ -1,1 +1,2 @@
 - The owl from the athena logo comes from https://dribbble.com/shots/12479107-Owl/attachments/4088935?mode=media
+- The growth mindset image is from https://world.edu/biggest-asset-academic-career-success-growth-mindset/

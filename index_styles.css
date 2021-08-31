@@ -1,0 +1,30 @@
+.home-banner-container {
+    background-color: rgba(64,64,64,1);
+}
+
+.intro-msg {
+    color: white;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.gallery-container {
+    background-color: white;
+    height: 600px;
+}
+
+.athena-topics-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.topic-card {
+    width: 333px;
+}
+
+.topic-card img {
+    height: 200px;
+    margin-bottom: 40px;
+}
