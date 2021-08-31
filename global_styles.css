@@ -16,16 +16,15 @@ body {
 header {
     background-color: black;
     border-bottom: 0.5px solid #6a6969;
-    display: flex;
     height: 60px;
-    justify-content: center;
 }
 
 nav {
     display: flex;
     color: white;
     height: 60px;
-    width: 1344px;
+    margin: 0 auto;
+    max-width: 1344px;
     justify-content: space-between;
     align-items: center;
 }
@@ -40,9 +39,7 @@ nav img {
 .nav-btn-container {
     display: flex;
     height: 50px;
-    width: 500px;
     margin-right: var(--center-side-padding);
-    justify-content: space-evenly;
 
 }
 
@@ -65,11 +62,12 @@ nav img {
 }
 
 .center-focus {
+    margin: 0 auto;
     max-width: 1344px;
 }
 
 .center-focus:first-child:not(nav) {
-    padding: var(--center-side-padding);
+    padding:  var(--center-side-padding);
 }
 
 footer {
