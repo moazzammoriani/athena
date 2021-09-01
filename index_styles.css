@@ -28,3 +28,21 @@
     height: 200px;
     margin-bottom: 40px;
 }
+
+.key-ideas article img {
+    float: left;
+    width: 400px;
+
+}
+
+.key-ideas article div {
+    clear: both;
+}
+
+.cb-management article img {
+    float: right;
+}
+
+
+
+
