@@ -1,0 +1,11 @@
+.contact-info-box {
+    border: 3px solid black;
+    display: flex;
+    height: 250px;
+    justify-content: space-evenly;
+}
+
+form {
+    border: 3px solid black;
+    padding: 60px;
+}
