@@ -1,0 +1,15 @@
+.founder-img {
+    width: 260px;
+    border-radius: 50%;
+}
+
+.faq {
+    background-color: #a2a2a2;
+}
+
+.faq-question {
+    height: 50px;
+    background-color: #4d4d3b;
+    margin: 20px 0;
+}
+
