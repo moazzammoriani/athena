@@ -3,17 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width , initial-scale=1">
     <link rel="stylesheet" href="global_styles.css">
-    <link rel="stylesheet" href="about_styles.css">
+    <link rel="stylesheet" href="index_styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <title>Athena - Home</title>
 </head>
 <body>
     <header>
         <nav>
-            <a href="index.html"><img src="resources/images/athena-logo.png" alt="Athena logo"></a>
+            <a class="logo-home" href="index.html"><img src="resources/images/athena-logo.png" alt="Athena logo"></a>
+            <div class="mob-bars-icon-container">
+                <i class="fas fa-bars fa-xs"></i>
+            </div>
             <div class="nav-btn-container">
                 <a href="index.html" id="nav-home" class="nav-btn">Home</a>
                 <a href="join.html" id="nav-join" class="nav-btn">Join</a>
@@ -22,6 +27,11 @@
                 <a href="contact.html" id="nav-contact" class="nav-btn">Contact</a>
             </div>
         </nav> 
+            <a href="index.html" id="nav-home" class="mob-nav-btn"><span>Home</span></a>
+            <a href="join.html" id="nav-join" class="mob-nav-btn"><span>Join</span></a>
+            <a href="about.html" id="nav-about" class="mob-nav-btn"><span>About</span></a>
+            <a href="blog.html" id="nav-blog" class="mob-nav-btn"><span>Blog</span></a>
+            <a href="contact.html" id="nav-contact" class="mob-nav-btn"><span>Contact</span></a>
     </header>
     <main>
         <section class="who-are-we">
@@ -57,5 +67,6 @@
     <footer>
         
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
