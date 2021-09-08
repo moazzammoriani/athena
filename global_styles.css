@@ -10,6 +10,7 @@ body {
     background-color: white;
     display: flex;
     flex-direction: column;
+    flex: 1;
     min-height: 100vh;
 }
 
@@ -57,13 +58,6 @@ nav img {
     background-color: #313131;
     cursor: pointer;
 }
-
-main {
-    display: flex;
-    flex-direction: column;
-}
-
-
 
 footer {
     background-color: black;

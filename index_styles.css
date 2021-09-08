@@ -1,8 +1,6 @@
-.home-banner-container {
-    background-color: rgba(64,64,64,1);
-}
 
 .intro-msg {
+    background-color: rgba(64,64,64,1);
     color: white;
     padding-left: 120px;
     padding-right: 120px;
@@ -14,24 +12,24 @@
 }
 
 .athena-topics-container {
-    margin-top: 50px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around; 
     flex-wrap: wrap;
 }
 
+
 .topic-card {
-    width: 333px;
+    width: 200px;
 }
 
 .topic-card img {
     height: 200px;
-    margin-bottom: 40px;
+    width: 100px;
 }
 
 .key-ideas article img {
     float: left;
-    width: 400px;
+    width: 200px;
 
 }
 
