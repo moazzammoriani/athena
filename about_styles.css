@@ -8,8 +8,25 @@
 }
 
 .faq-question {
-    height: 50px;
     background-color: #4d4d3b;
     margin: 20px 0;
+}
+
+.accordion {
+    overflow: hidden;
+}
+
+/* Formatting the accordion heading */
+
+/* Accordion's content box's color */ 
+.accordion-content {
+    background-color: lightgrey;
+    max-height: 0;
+    transition: 0.3s; 
+}
+
+/* The class that displays the accordion's content */
+.activate {
+    max-height: 800px;
 }
 

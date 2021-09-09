@@ -1,3 +1,7 @@
+:root {
+    --carousel-width: 1344px;
+    --carousel-height: 756px;
+}
 
 .intro-msg {
     background-color: rgba(64,64,64,1);
@@ -6,10 +10,6 @@
     padding-right: 120px;
 }
 
-.gallery-container {
-    background-color: white;
-    height: 600px;
-}
 
 .athena-topics-container {
     display: flex;
@@ -41,6 +41,66 @@
     float: right;
 }
 
+.carousel {
+    height: var(--carousel-height);
+    width: var(--carousel-width);
+    margin: auto;
+    text-align: center;
+}
+
+.carousel-img-display {
+    height: var(--carousel-height);
+    width: var(--carousel-width);
+    display: flex;
+    overflow: hidden;
+}
 
 
+.carousel-slide {
+    height: var(--carousel-height);
+    width: var(--carousel-width);
+}
 
+.first-slide {
+    transition: 1s;
+}
+
+.carousel-slide img{
+    height: var(--carousel-height);
+    width: var(--carousel-width);
+}
+
+@media screen and (max-width: 1344px) {
+    :root {
+        --carousel-width: 1000px;
+        --carousel-height: 562.5px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    :root {
+        --carousel-width: 800px;
+        --carousel-height: 450px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    :root {
+        --carousel-width: 500px;
+        --carousel-height: 281.25px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    :root {
+        --carousel-width: 320px;
+        --carousel-height: 180px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    :root {
+        --carousel-width: 280px;
+        --carousel-height: 157.5px;
+    }
+}
