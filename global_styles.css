@@ -5,6 +5,11 @@
     font-family: 'Noto Sans JP', sans-serif;
 }
 
+.centered {
+    margin: auto;
+    max-width: 1344px;
+}
+
 
 body {
     background-color: white;
@@ -32,17 +37,16 @@ header {
     line-height: 60px;
 }
 
+
 nav {
     display: flex;
     color: white;
     height: 60px;
-    max-width: 1344px;
     justify-content: space-between;
     align-items: center;
-    margin: auto;
 }
 
-.mov-nav-btn {
+.mob-nav-btn {
     display: none;
 }
 
@@ -70,9 +74,23 @@ nav {
     text-decoration: none;
 }
 
+
 .nav-btn:hover {
     background-color: #313131;
     cursor: pointer;
+}
+
+.breadcrumbs {
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    height: 70px;
+}
+
+.breadcrumbs span {
+    text-align: left;
+    display: block;
+    line-height: 70px;
 }
 
 footer {
@@ -83,10 +101,15 @@ footer {
     margin-top: auto;
 }
 
+@media screen and (max-width: 1344px) {
+    .centered {
+        padding: 0 30px;
+    }
+}
 
 @media screen and (max-width: 768px) {
-    nav {
-        padding: 0 20px;
+    nav , .breadcrumbs {
+        padding: 0 30px;
     }
     
     .logo-home img {
@@ -108,7 +131,11 @@ footer {
     }
 
     .mob-nav-btn span {
-        line-height: 60px     
+        line-height: 60px;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 16px;
+        text-decoration: none;
+        color: white;
     }
 
     .mob-bars-icon-container {

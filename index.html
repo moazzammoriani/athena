@@ -6,15 +6,18 @@
     <meta name="viewport" content="width=device-width , initial-scale=1">
     <link rel="stylesheet" href="global_styles.css">
     <link rel="stylesheet" href="index_styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;800&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <title>Athena - Home</title>
 </head>
 <body>
     <header>
-        <nav>
+        <nav class="centered">
             <a class="logo-home" href="index.html"><img src="resources/images/athena-logo.png" alt="Athena logo"></a>
             <div class="mob-bars-icon-container">
                 <i class="fas fa-bars fa-xs"></i>
@@ -34,13 +37,23 @@
             <a href="contact.html" id="nav-contact" class="mob-nav-btn"><span>Contact</span></a>
     </header>
     <main>
+        <section class="breadcrumbs"><span class="centered">Home</span></section>
         <section class="intro-msg">
-            <article>
+            <article class="centered">
                 <h1><span>Athena</span> Collective</h1>
                 <p>
-                Aliquam sit amet ligula elit. Fusce vel ipsum massa. Sed arcu ipsum, finibus consectetur aliquet vel, hendrerit vitae lorem. Nullam sit amet odio id diam cursus vehicula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque arcu diam, tristique tristique lorem vel, aliquet cursus sem. Vestibulum enim velit, elementum eu neque sit amet, scelerisque viverra sem. Nam facilisis cursus pharetra. Cras eu ante ornare, egestas nulla a, vehicula dui. Quisque lacinia interdum hendrerit. Pellentesque eu auctor ipsum, porta ornare odio. Nulla semper, ligula et efficitur vulputate, enim odio pretium leo, vitae ullamcorper diam quam vel lorem. Cras cursus metus ut urna gravida, in maximus magna cursus. Nam mattis turpis tortor, eget vestibulum risus sodales id.
+                Learn the techniques to become a better self-learner. This includes self-discipline, patience and asking the right question.
                 </p>
-                <button>Join us</button>
+                <p>
+                More than that, learn how to maintain knowledge like any good structure-builder.
+                </p>
+                <br>
+                <p>
+                Learn yourself and contribute to other's learning as well!
+                </p>
+                <a href="join.html">
+                    <button>Join us</button>
+                </a>
             </article>
         </section>
         <section class="gallery-container">
@@ -69,26 +82,26 @@
                 </div>
             </div>
         </section>
-        <h1>What are we passionate about at Athena?</h1>
-        <section class="athena-topics-container">
+        <h1 class="athena-topics-title centered">What are we passionate about at Athena?</h1>
+        <section class="athena-topics-container centered">
             <div class="topic-card topic-card1">
                 <img src="resources/images/growth-mindset.jpg" alt="Growth mindset illustration">
                 <h3>Cultivating growth mindsets</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tincidunt dui sit amet urna pellentesque, et hendrerit tortor sollicitudin. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Quisque nec tortor at lacus eleifend pulvinar nec in mi.</p>
             </div>
             <div class="topic-card topic-card2">
-                <img src="resources/images/growth-mindset.jpg" alt="Growth mindset illustration">
-                <h3>Cultivating growth mindsets</h3>
+                <img src="resources/images/teaching.jpg" alt="Picture of classroom">
+                <h3>Teaching</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tincidunt dui sit amet urna pellentesque, et hendrerit tortor sollicitudin. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Quisque nec tortor at lacus eleifend pulvinar nec in mi.</p>
             </div>
             <div class="topic-card topic-card3">
-                <img src="resources/images/growth-mindset.jpg" alt="Growth mindset illustration">
-                <h3>Cultivating growth mindsets</h3>
+                <img src="resources/images/self-reflection.jpg" alt="Growth mindset illustration">
+                <h3>Reflection</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tincidunt dui sit amet urna pellentesque, et hendrerit tortor sollicitudin. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Quisque nec tortor at lacus eleifend pulvinar nec in mi.</p>
             </div>
         </section>
         <section class="key-ideas self-discipline">
-            <article class="center-focus">
+            <article class="centered">
                 <h3>Self-discipline</h3>
                 <img src="resources/images/self-discipline.jpg" alt="Picture of notebook and coffee">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer semper mauris et justo viverra laoreet. Nulla leo lectus, porta eu odio a, sollicitudin ultrices ipsum. Nam iaculis luctus mi, a vestibulum nisi rhoncus a. Vestibulum dui dolor, hendrerit sed sem vitae, cursus pretium leo. Interdum et malesuada fames ac ante ipsum primis in faucibus. Quisque fringilla tellus sed orci lacinia semper. Donec sit amet sollicitudin nunc. Donec scelerisque pretium condimentum.</p>
@@ -96,7 +109,7 @@
             </article>
         </section>
         <section class="key-ideas cb-management">
-            <article class="center-focus">
+            <article class="centered">
                 <h3>Cognitive-burden Management</h3>
                 <img src="resources/images/cb-management.jpeg" alt="Cluster of nodes">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer semper mauris et justo viverra laoreet. Nulla leo lectus, porta eu odio a, sollicitudin ultrices ipsum. Nam iaculis luctus mi, a vestibulum nisi rhoncus a. Vestibulum dui dolor, hendrerit sed sem vitae, cursus pretium leo. Interdum et malesuada fames ac ante ipsum primis in faucibus. Quisque fringilla tellus sed orci lacinia semper. Donec sit amet sollicitudin nunc. Donec scelerisque pretium condimentum.</p>
@@ -104,7 +117,7 @@
             </article>
         </section>
         <section class="key-ideas grit">
-            <article class="center-focus">
+            <article class="centered">
                 <h3>Grit</h3>
                 <img src="resources/images/grit.jpg" alt="">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer semper mauris et justo viverra laoreet. Nulla leo lectus, porta eu odio a, sollicitudin ultrices ipsum. Nam iaculis luctus mi, a vestibulum nisi rhoncus a. Vestibulum dui dolor, hendrerit sed sem vitae, cursus pretium leo. Interdum et malesuada fames ac ante ipsum primis in faucibus. Quisque fringilla tellus sed orci lacinia semper. Donec sit amet sollicitudin nunc. Donec scelerisque pretium condimentum.</p>

@@ -1,5 +1,7 @@
 - The owl from the athena logo comes from https://dribbble.com/shots/12479107-Owl/attachments/4088935?mode=media
 - The growth mindset image is from https://world.edu/biggest-asset-academic-career-success-growth-mindset/
-- Self-discipline image comes from https://www.smesolutions.nl/12-step-plan-for-getting-established-in-the-dutch-market/
+- Self-discipline image comes from https://www.brainpickings.org/2018/11/20/a-velocity-of-being-letters-to-a-young-reader/
+- The teaching image comes from https://www.brainpickings.org/2014/01/29/carol-dweck-mindset/
+- Self-reflection image comes form https://hbr.org/2017/03/why-you-should-make-time-for-self-reflection-even-if-you-hate-doing-it
 - Got image from https://lutonmuslimjournal.com/wp-content/uploads/2021/02/gettyimages-803227220.jpg
 - Images of founders generated usijng the thispersondoesnotexist.com api

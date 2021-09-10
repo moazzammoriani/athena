@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width , initial-scale=1">
     <link rel="stylesheet" href="global_styles.css">
-    <link rel="stylesheet" href="index_styles.css">
+    <link rel="stylesheet" href="contact_styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500&display=swap" rel="stylesheet">
@@ -14,7 +14,7 @@
 </head>
 <body>
     <header>
-        <nav>
+        <nav class="centered">
             <a class="logo-home" href="index.html"><img src="resources/images/athena-logo.png" alt="Athena logo"></a>
             <div class="mob-bars-icon-container">
                 <i class="fas fa-bars fa-xs"></i>
@@ -27,18 +27,19 @@
                 <a href="contact.html" id="nav-contact" class="nav-btn">Contact</a>
             </div>
         </nav> 
-            <a href="index.html" id="nav-home" class="mob-nav-btn"><span>Home</span></a>
+            <a href="index.html" id="nav-home" class="mob-nav-btn nav-btn"><span>Home</span></a>
             <a href="join.html" id="nav-join" class="mob-nav-btn"><span>Join</span></a>
             <a href="about.html" id="nav-about" class="mob-nav-btn"><span>About</span></a>
             <a href="blog.html" id="nav-blog" class="mob-nav-btn"><span>Blog</span></a>
             <a href="contact.html" id="nav-contact" class="mob-nav-btn"><span>Contact</span></a>
     </header>
     <main>
+        <section class="breadcrumbs"><span class="centered">Home / Contact</span></section>
         <section class="contact-info">
-            <div class="center-focus">
                 <div class="contact-info-box">
                     <div class="contact-address">
                         <h2>Address</h2>
+                        <p>donkeys</p>
                     </div>
                     <div class="contact-email">
                         <h2>Email</h2>
@@ -47,35 +48,35 @@
                         <h2>Phone</h2>
                     </div>
                 </div>
-            </div>
         </section>
-        <section class="contact-form">
-            <div class="center-focus">
+        <section class="contact-form-container">
                 <form>
-                    <label for="first-name">First-name:</label>
-                    <input id="first-name" type="text">
+                    <ul>
+                        <li>
+                            <label for="name">Name:</label>
+                            <input id="name" type="text" required>
+                        </li>
 
-                    <label for="last-name">Last-name:</label>
-                    <input id="last-name" type="text">
-                    <br>
-                    <br>
+                        <li>
+                            <label for="email">Email:</label>
+                            <input id="email" type="email" maxlength="255" required>
+                        </li>
 
-                    <label for="email">Email:</label>
-                    <input id="email" type="text">
-                    <br>
-                    <br>
-                    
-                    <label for="subject">Subject:</label>
-                    <input id="subject" type="text">
-                    <br>
-                    <br>
+                        <li>
+                            <label for="subject">Subject:</label>
+                            <input id="subject" type="text" required>
+                        </li>
 
-                    <label for="message">Message:</label>
-                    <input id="message" type="text">
+                        <li>
+                            <label for="message">Message:</label>
+                            <textarea id="message" name="user_message" required></textarea>
+                        </li>
 
-                    <input id="contact-form-submit-btn" type="submit" value="Submit">
+                        <li class="contact-form-btn-container">
+                            <button id="contact-form-submit-btn" type="submit">Submit</button>
+                        </li>
+                    </ul>
                 </form>
-            </div>
         </section> 
     </main>
     <footer>

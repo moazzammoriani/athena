@@ -1,3 +1,8 @@
+:root {
+    --inputs-width: 800px;
+    --ul-width: 875px;
+}
+
 .contact-info-box {
     border: 3px solid black;
     display: flex;
@@ -5,7 +10,93 @@
     justify-content: space-evenly;
 }
 
+.contact-form-container {
+    padding: auto;
+}
+
 form {
     border: 3px solid black;
-    padding: 60px;
+    margin: auto;
+    max-width: 1344px;
+}
+
+ul {
+    display: block;
+    list-style: none;
+    margin: auto;
+    width: var(--ul-width);
+}
+
+li {
+    margin-top: 30px;
+}
+
+label {
+  /* Uniform size & alignment */
+  display: inline-block;
+  width: 70px;
+  text-align: right;
+}
+
+input, textarea {
+    width: var(--inputs-width)
+}
+
+.contact-form-btn-container {
+    text-align: right;
+}
+
+#contact-form-submit-btn {
+    background-color: #0063c9;
+    color: white;
+    border: none;
+    width: 150px;
+    height: 50px;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+textarea {
+    vertical-align: top;
+    height: 200px;
+}
+
+.success-banner {
+    width: var(--ul-len); 
+    margin: auto;
+    background-color: #bdffa7;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.success-banner i {
+    color: green;
+}
+
+@media screen and (max-width: 875px) {
+    :root {
+        --inputs-width: 600px;
+        --ul-width: 675px;
+    }
+}
+
+@media screen and (max-width: 675px) {
+    :root {
+        --inputs-width: 400px;
+        --ul-width: 475px;
+    }
+}
+
+@media screen and (max-width: 475px) {
+    :root {
+        --inputs-width: 300px;
+        --ul-width: 375px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    :root {
+        --inputs-width: 205px;
+        --ul-width: 280px;
+    }
 }
