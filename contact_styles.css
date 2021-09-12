@@ -3,21 +3,41 @@
     --ul-width: 875px;
 }
 
+.contact-info {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
 .contact-info-box {
-    border: 3px solid black;
+    border: 1px solid black;
     display: flex;
-    height: 250px;
     justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.contact-info-box h2 {
+    margin-bottom: 30px;
+}
+
+.contact-info-box div {
+    height: 250px;
+    width: 350px;
+}
+
+.contact-form-container h2 {
+    text-align: center;
 }
 
 .contact-form-container {
     padding: auto;
+    margin-bottom: 200px;
 }
 
 form {
-    border: 3px solid black;
+    border: 1px solid black;
     margin: auto;
     max-width: 1344px;
+    padding: 30px;
 }
 
 ul {
@@ -54,6 +74,10 @@ input, textarea {
     height: 50px;
     border-radius: 6px;
     font-size: 15px;
+}
+
+#contact-form-submit-btn:hover {
+    cursor: pointer;
 }
 
 textarea {
