@@ -6,3 +6,9 @@
 - Got cognitive burden image from https://medium.com/jeremy-gottfrieds-tech-blog/how-to-learn-anything-555890f3d08f;
 - Got the grit image from https://www.npr.org/2016/04/04/472162167/the-power-and-problem-of-grit
 - Images of founders generated usijng the thispersondoesnotexist.com api
+
+
+#Index page content
+The content about growth mindets is from https://en.wikipedia.org/wiki/Mindset 
+
+The content about teaching is from https://fs.blog/2021/02/feynman-learning-technique/
