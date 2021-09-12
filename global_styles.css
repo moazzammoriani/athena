@@ -114,6 +114,42 @@ footer {
     margin-top: auto;
 }
 
+.footer-sub-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.footer-logo-container {
+    text-align: center;
+    width: 200px;
+}
+
+.footer-logo-container img {
+    width: 180px;
+    display: block;
+    margin-left: 5px;
+
+}
+
+.footer-logo-container p {
+    text-align: center;
+    color: white;
+}
+
+.footer-links-container {
+    padding-top: 10px;
+    padding-right: 10px;
+    text-align: center;
+    border-right: 1px solid white;
+}
+
+.footer-links-container a {
+    text-decoration: none;
+    color: white;
+}
+
 @media screen and (max-width: 1344px) {
     .centered {
         padding: 0 30px;

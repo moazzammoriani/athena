@@ -13,6 +13,7 @@
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    text-align: center;
 }
 
 .contact-info-box h2 {
