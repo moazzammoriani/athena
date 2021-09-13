@@ -1,3 +1,20 @@
+/* 
+ *
+ *
+ *
+ * Styles in this file manage the layout of the whole website
+ *
+ *
+ *
+ *
+ */
+
+/**********************************************
+ *
+ *  Layout and default parameters
+ *
+ */
+
 * {
     box-sizing: border-box; 
     margin: 0;
@@ -5,12 +22,13 @@
     font-family: 'Noto Sans JP', sans-serif;
 }
 
+/* Centering main content */
 .centered {
     margin: auto;
     max-width: 1344px;
 }
 
-
+/* Setting the body's style settings */
 body {
     background-color: white;
     display: flex;
@@ -19,6 +37,13 @@ body {
     min-height: 100vh;
 }
 
+/***************************************
+ *
+ *   Styling the Navigation Bar
+ *
+ */
+
+/* Styling and setting header */
 header {
     background-color: black;
     border-bottom: 0.5px solid #6a6969;
@@ -27,10 +52,12 @@ header {
     overflow: hidden;
 }
 
+/* For desktop site */
 .mob-bars-icon-container {
     display: none;
 }
 
+/* Styling the menu icon */
 .mob-bars-icon-container i {
     font-size: 25px;
     color: white;
@@ -38,6 +65,7 @@ header {
 }
 
 
+/* Styling the navigation menu */
 nav {
     display: flex;
     color: white;
@@ -46,14 +74,17 @@ nav {
     align-items: center;
 }
 
+/* Setting up behaviour for mobile nav meny */
 .mob-nav-btn {
     display: none;
 }
 
+/* Adjusting the logo's height */
 .logo-home img {
     display: block;
     height: 40px;
 }
+
 
 .nav-btn-container {
     display: flex;
@@ -61,6 +92,7 @@ nav {
 
 }
 
+/* Styling the nav buttons */
 .nav-btn {
     color: white;
     display: block;
@@ -80,6 +112,14 @@ nav {
     cursor: pointer;
 }
 
+/****************************************
+ *
+ * Breadcrumbs style and layout
+ *
+ */
+
+
+/* Adding styles */
 .breadcrumbs {
     background-color: black;
     color: white;
@@ -88,17 +128,31 @@ nav {
     border-bottom: 1px solid #6a6969;
 }
 
+/* Layout related styles */
 .breadcrumbs span {
     text-align: left;
     display: block;
     line-height: 70px;
 }
 
+.breadcrumbs a {
+    color: white;
+    text-decoration: none;
+}
+
+/**********************************
+ *
+ * Styles for the title of the page
+ *
+ */
+
+/* Adding colors */
 .page-title {
     background-color: black;;
     color: white;
 }
 
+/* Placement and layout */
 .page-title h1 {
     padding: 80px 0;
     text-align: center;
@@ -106,6 +160,13 @@ nav {
 
 }
 
+/**********************************
+ *
+ * Footer styles and layout
+ *
+ */
+
+/* Adding styles and adjusting size and placement */
 footer {
     background-color: black;
     border-top: 0.5px solid #6a6969;
@@ -114,6 +175,7 @@ footer {
     margin-top: auto;
 }
 
+/* Managing nested footer boxes size and layout */
 .footer-sub-container {
     display: flex;
     justify-content: center;
@@ -126,6 +188,7 @@ footer {
     width: 200px;
 }
 
+/* Sizing the logo image in the footer */
 .footer-logo-container img {
     width: 180px;
     display: block;
@@ -133,6 +196,7 @@ footer {
 
 }
 
+/* Styling text and links in the footer */
 .footer-logo-container p {
     text-align: center;
     color: white;
@@ -150,6 +214,12 @@ footer {
     color: white;
 }
 
+/*****************************
+ *
+ *  Responsiveness
+ *
+ */
+
 @media screen and (max-width: 1344px) {
     .centered {
         padding: 0 30px;
@@ -157,7 +227,7 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
-    nav , .breadcrumbs {
+    nav, .breadcrumbs {
         padding: 0 30px;
     }
     
@@ -190,6 +260,4 @@ footer {
     .mob-bars-icon-container {
         display: block;
     }
-
-    
 }
