@@ -1,3 +1,9 @@
+/*
+ *
+ * This script is responsible for the funcionality of the collapsible FAQ 
+ * questions
+ *
+ */
 // Selecting all accordions
 accordions = document.querySelectorAll('.accordion');
 
