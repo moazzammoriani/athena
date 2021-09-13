@@ -1,9 +1,11 @@
+/* Setting variables */
 :root {
     --carousel-width: 1344px;
     --carousel-height: 756px;
     --standard-margin: 100px;
 }
 
+/* Welcome message styles */
 .intro-msg {
     padding: 50px 0;
     background-color: rgba(64,64,64,1);
@@ -32,6 +34,7 @@
     cursor: pointer;
 }
 
+/* Slideshow section styles */
 .gallery-container {
     margin-top: 40px;
 }
@@ -40,6 +43,38 @@
     margin-bottom: 10px
 }
 
+.carousel {
+    height: var(--carousel-height);
+    width: var(--carousel-width);
+    margin: auto;
+    text-align: center;
+}
+
+.carousel-img-display {
+    height: var(--carousel-height);
+    width: var(--carousel-width);
+    display: flex;
+    overflow: hidden;
+}
+
+
+.carousel-slide {
+    height: var(--carousel-height);
+    width: var(--carousel-width);
+}
+
+/* Animation for slide movment */
+.first-slide {
+    transition: 1s;
+}
+
+/* Settig size of images in slides */
+.carousel-slide img{
+    height: var(--carousel-height);
+    width: var(--carousel-width);
+}
+
+/* Card styles and layout */
 .athena-topics-title {
     margin-top: var(--standard-margin);
     margin-bottom: var(--standard-margin);
@@ -69,72 +104,8 @@
     
 }
 
-.key-ideas {
-    margin-top: var(--standard-margin);
-    border-top: 1px solid #eaeaea;
-}
 
-.key-ideas h3 {
-    font-size: 26px;
-    padding-top: 80px;
-    margin-bottom: 80px;
-    
-
-}
-
-.key-ideas article img {
-    float: left;
-    width: 400px;
-}
-
-.self-discipline article img, .grit article img {
-    margin-right: 200px;
-}
-
-.key-ideas article div {
-    clear: both;
-}
-
-.cb-management article img {
-    float: right;
-    margin-left: 200px;
-}
-
-.grit {
-    border-bottom: 1px solid #eaeaea;
-    padding-bottom: 80px;
-
-}
-
-.carousel {
-    height: var(--carousel-height);
-    width: var(--carousel-width);
-    margin: auto;
-    text-align: center;
-}
-
-.carousel-img-display {
-    height: var(--carousel-height);
-    width: var(--carousel-width);
-    display: flex;
-    overflow: hidden;
-}
-
-
-.carousel-slide {
-    height: var(--carousel-height);
-    width: var(--carousel-width);
-}
-
-.first-slide {
-    transition: 1s;
-}
-
-.carousel-slide img{
-    height: var(--carousel-height);
-    width: var(--carousel-width);
-}
-
+/* Responsiveness */
 @media screen and (max-width: 1344px) {
     :root {
         --carousel-width: 1000px;

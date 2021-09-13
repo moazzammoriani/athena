@@ -1,8 +1,10 @@
+/* Setting the layout and spacing for the blog */
 .blog {
     margin-top: 200px;
     margin-bottom: 200px;
 }
 
+/* Setting the font width for the tile of the blog */
 article h3 {
     font-size: 32px;
 }

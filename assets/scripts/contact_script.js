@@ -6,6 +6,7 @@ const email = document.querySelector("#email");
 const subject = document.querySelector("#subject");
 const message = document.querySelector("#message");
 
+/* Check the form data and if it is correct display a success message */
 form.addEventListener("submit", (event) => {
     event.preventDefault();
 

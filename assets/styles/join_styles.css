@@ -1,12 +1,15 @@
+/* Laying out sub-title of page */
 h2 {
     padding-top: 100px;
 }
 
+/* Table container layout */
 .table-container {
     margin-top: 100px;
     margin-bottom:200px;
 }
 
+/* Table structure */
 .table {
     display: flex;
     flex-wrap: wrap;
@@ -17,6 +20,7 @@ h2 {
     width: 400px;
 }
 
+/* Creating a margins between columns */
 .col {
     border-left: 1px solid white;
 }
@@ -37,6 +41,7 @@ h2 {
         padding: 8px 0;
     }
 
+/* Responsive styles for when the features columns is removed */
 .when-features-col-collapses {
     display: none; 
     font-size: 11px;
@@ -49,6 +54,7 @@ button {
     border-radius: 6px;
 }
 
+/* Styling buttons */
 .col-1 button {
     background-color: white;
     border: 1px solid black;
@@ -69,6 +75,7 @@ button {
    cursor: pointer;
 }
 
+/* Responsiveness */
 @media screen and (max-width: 1200px) {
     .features{
         display: none
