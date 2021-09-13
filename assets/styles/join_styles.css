@@ -44,7 +44,7 @@ h2 {
 /* Responsive styles for when the features columns is removed */
 .when-features-col-collapses {
     display: none; 
-    font-size: 11px;
+    font-size: 12px;
 }
 
 button {
