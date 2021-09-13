@@ -36,6 +36,10 @@
     margin-top: 40px;
 }
 
+.gallery-container h1 {
+    margin-bottom: 10px
+}
+
 .athena-topics-title {
     margin-top: var(--standard-margin);
     margin-bottom: var(--standard-margin);

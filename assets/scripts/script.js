@@ -15,17 +15,6 @@ function toggleMobileMenu() {
     }
 }
 
-/*document.querySelector(".radio-container").addEventListener("change", (e) => {
-    // Selects the number of the input's index
-    inputIndex = e.target.getAttribute('id').slice(6);
-
-    firstSlide = document.querySelector('.first-slide');
-    
-    slideMotion = parseInt(inputIndex) * -100;
-    firstSlide.style.marginLeft = String(slideMotion) + "%";
-
-    
-})*/
 
 // Selecting all accordions
 accordions = document.querySelectorAll('.accordion');
@@ -54,7 +43,7 @@ const email = document.querySelector("#email");
 const subject = document.querySelector("#subject");
 const message = document.querySelector("#message");
 
-/*form.addEventListener("submit", (event) => {
+form.addEventListener("submit", (event) => {
     event.preventDefault();
 
     email.addEventListener("input", () => {
@@ -68,4 +57,4 @@ const message = document.querySelector("#message");
     successBanner.className += "success-banner";
     successBanner.innerHTML = `<i class="fas fa-check-circle"></i> Sumbission successful! We will get in touch with you soon.`
     formContainer.appendChild(successBanner);
-});*/
+});
