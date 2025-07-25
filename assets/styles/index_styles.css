@@ -12,7 +12,6 @@
     color: white;
     position: relative;
     overflow: hidden;
-    margin-top: -20px;
 }
 
 .intro-msg::before {
