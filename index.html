@@ -67,28 +67,43 @@
         <section class="gallery-container">
             <h2 class="centered">Pictures from a Recent Conference</h2>
             <div class="carousel">
-                <div class="carousel-img-display-container">
-                    <div class="carousel-img-display">
-                        <div class="carousel-slide first-slide">
-                            <img id="img-index-0" src="assets/images/slide1.jpg" alt="Picture of an athena conference">
-                        </div>
-                        <div class="carousel-slide">
-                            <img id="img-index-1" src="assets/images/slide2.jpg" alt="Picture of an athena conference">
-                        </div>
-                        <div class="carousel-slide">
-                            <img id="img-index-2" src="assets/images/slide3.jpg" alt="Picture of an athena conference">
-                        </div>
-                        <div class="carousel-slide">
-                            <img id="img-index-3" src="assets/images/slide4.jpeg" alt="Picture of an athena conference">
+                <div class="carousel-wrapper">
+                    <!-- Navigation arrows -->
+                    <button class="carousel-nav carousel-nav-prev" aria-label="Previous slide">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <button class="carousel-nav carousel-nav-next" aria-label="Next slide">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                    
+                    <div class="carousel-img-display-container">
+                        <div class="carousel-img-display">
+                            <div class="carousel-slide first-slide">
+                                <img id="img-index-0" src="assets/images/slide1.jpg" alt="Picture of an athena conference">
+                            </div>
+                            <div class="carousel-slide">
+                                <img id="img-index-1" src="assets/images/slide2.jpg" alt="Picture of an athena conference">
+                            </div>
+                            <div class="carousel-slide">
+                                <img id="img-index-2" src="assets/images/slide3.jpg" alt="Picture of an athena conference">
+                            </div>
+                            <div class="carousel-slide">
+                                <img id="img-index-3" src="assets/images/slide4.jpeg" alt="Picture of an athena conference">
+                            </div>
                         </div>
                     </div>
                 </div>
-                <!-- Carousel navigation -->
-                <div class="radio-container">
+                
+                <!-- Carousel navigation dots -->
+                <div class="carousel-indicators">
                     <input id="index-0" type="radio" name="carousel-btn">
+                    <label for="index-0" class="carousel-dot"></label>
                     <input id="index-1" type="radio" name="carousel-btn">
+                    <label for="index-1" class="carousel-dot"></label>
                     <input id="index-2" type="radio" name="carousel-btn">
+                    <label for="index-2" class="carousel-dot"></label>
                     <input id="index-3" type="radio" name="carousel-btn">
+                    <label for="index-3" class="carousel-dot"></label>
                 </div>
             </div>
         </section>
