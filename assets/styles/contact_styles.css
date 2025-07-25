@@ -240,6 +240,9 @@
     transition: all 0.3s ease;
     background: white;
     font-family: inherit;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
 }
 
 .form-group input:focus,
@@ -408,12 +411,33 @@
     }
     
     .contact-form-container {
-        padding: 30px 25px;
+        padding: 30px 20px;
+        margin: 0 5px;
     }
     
     .form-row {
         grid-template-columns: 1fr;
         gap: 15px;
+    }
+    
+    .form-group input,
+    .form-group textarea {
+        padding: 16px 18px;
+        font-size: 16px;
+        min-height: 44px;
+        -webkit-appearance: none;
+        -webkit-border-radius: 12px;
+    }
+    
+    .form-group textarea {
+        min-height: 120px;
+    }
+    
+    .submit-btn {
+        padding: 16px 40px;
+        min-height: 52px;
+        width: 100%;
+        justify-content: center;
     }
     
     .contact-features {
@@ -444,15 +468,67 @@
     }
     
     .contact-form-container {
-        padding: 25px 20px;
+        padding: 25px 15px;
+        margin: 0 10px;
+    }
+    
+    .form-group input,
+    .form-group textarea {
+        padding: 18px 16px;
+        font-size: 16px;
+        min-height: 48px;
+        border-radius: 8px;
+    }
+    
+    .form-group textarea {
+        min-height: 140px;
+        padding: 18px 16px;
+    }
+    
+    .form-group label {
+        font-size: 1rem;
+        margin-bottom: 8px;
+    }
+    
+    .contact-form {
+        gap: 20px;
     }
     
     .form-actions {
         justify-content: center;
+        margin-top: 15px;
     }
     
     .submit-btn {
         width: 100%;
         justify-content: center;
+        padding: 18px 40px;
+        font-size: 1.1rem;
+        min-height: 56px;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+    }
+}
+
+/* Additional mobile-specific improvements */
+@media screen and (max-width: 360px) {
+    .contact-form-container {
+        padding: 20px 12px;
+        margin: 0 8px;
+    }
+    
+    .form-group input,
+    .form-group textarea {
+        padding: 16px 14px;
+        font-size: 16px;
+    }
+    
+    .form-header h2 {
+        font-size: 1.8rem;
+    }
+    
+    .hero-content h1 {
+        font-size: 1.8rem;
     }
 }
