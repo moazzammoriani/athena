@@ -1,23 +1,30 @@
 /*
  *
- * This script is responsible for the funcionality of the collapsible FAQ 
- * questions
+ * This script is responsible for the functionality of the collapsible FAQ 
+ * questions with enhanced animation and icon rotation
  *
  */
-// Selecting all accordions
-accordions = document.querySelectorAll('.accordion');
 
-// Adding an event listener to all accordions, selecting their content and then toggling 
-// the the class that hides/displays them
-for (let i = 0; i < accordions.length; i++) {
-    accordions[i].addEventListener("click", (e) => {
-        accordion = e.target.parentNode;
-        for (let i = 0; i < accordion.childNodes.length; i++) {
-            if (accordion.childNodes[i].classList != undefined) {
-                if (accordion.childNodes[i].classList[0] == "accordion-content") {
-                    accordion.childNodes[i].classList.toggle("activate");
+// Enhanced FAQ functionality
+document.addEventListener('DOMContentLoaded', function() {
+    const faqItems = document.querySelectorAll('.faq-item');
+    
+    faqItems.forEach(item => {
+        const question = item.querySelector('.faq-question');
+        const answer = item.querySelector('.faq-answer');
+        
+        question.addEventListener('click', () => {
+            // Close other open items
+            faqItems.forEach(otherItem => {
+                if (otherItem !== item && otherItem.classList.contains('active')) {
+                    otherItem.classList.remove('active');
+                    otherItem.querySelector('.faq-answer').classList.remove('activate');
                 }
-            }
-        }
-    })
-}
+            });
+            
+            // Toggle current item
+            item.classList.toggle('active');
+            answer.classList.toggle('activate');
+        });
+    });
+});
