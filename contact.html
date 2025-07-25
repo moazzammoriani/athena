@@ -43,67 +43,144 @@
     <main>
         <!-- Breadcrumbs -->
         <div class="breadcrumbs"><span class="centered"><a href="index.html">Home</a> / Contact</span></div>
-        <!-- Page title -->
-        <section class="page-title"><h1 class="centered">Contact Us</h1></section>
-        <!-- Container for contact info -->
-        <section class="contact-info">
-                <address class="centered contact-info-box">
-                    <!-- Address -->
-                    <div class="contact-address">
-                        <h2>Address</h2>
-                            <p>4830 Spring Avenue,</p>
-                            <p>City Center,</p>
-                            <p>Pennsylvania,</p>
-                            <p>97205,</p>
-                            <p>USA</p>
-                    </div>
-                    <!-- Email -->
-                    <div class="contact-email">
-                        <h2>Email</h2>
-                        <p>
-                        <a href="mailto:support@athena.com">support@athena.com</a>
-                        </p>
-                    </div>
-                    <!-- Phone -->
-                    <div class="contact-phone">
-                        <h2>Phone</h2>
-                        <p>267-633-9788</p>
-                    </div>
-                </address>
+        
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <div class="hero-content centered">
+                <div class="hero-badge">
+                    <i class="fas fa-envelope"></i>
+                    <span>Get In Touch</span>
+                </div>
+                <h1>Contact Us</h1>
+                <p class="hero-subtitle">We'd love to hear from you. Send us a message and we'll respond as soon as possible.</p>
+            </div>
         </section>
-        <!-- Contact form container -->
-        <section class="contact-form-container">
-                <h2 class="centered">Fill the contact form below to get in touch with us</h2>
-                <form>
-                    <!-- Structuring form content -->
-                    <ul>
-                        <li>
-                            <label for="name">Name:</label>
-                            <input id="name" type="text" required>
-                        </li>
 
-                        <li>
-                            <label for="email">Email:</label>
-                            <input id="email" type="email" maxlength="255" required>
-                        </li>
+        <!-- Contact Info Section -->
+        <section class="contact-info-section">
+            <div class="contact-container centered">
+                <h2 class="section-title">How to Reach Us</h2>
+                <div class="contact-cards">
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <h3>Visit Us</h3>
+                        <div class="contact-details">
+                            <p>4830 Spring Avenue</p>
+                            <p>City Center, Pennsylvania</p>
+                            <p>97205, USA</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h3>Email Us</h3>
+                        <div class="contact-details">
+                            <a href="mailto:support@athena.com">support@athena.com</a>
+                            <p class="contact-note">We typically respond within 24 hours</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <h3>Call Us</h3>
+                        <div class="contact-details">
+                            <a href="tel:267-633-9788">267-633-9788</a>
+                            <p class="contact-note">Monday - Friday, 9AM - 6PM EST</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-                        <li>
-                            <label for="subject">Subject:</label>
-                            <input id="subject" type="text" required>
-                        </li>
-
-                        <li>
-                            <label for="message">Message:</label>
-                            <textarea id="message" name="user_message" required></textarea>
-                        </li>
-
-                        <!-- Form sumbission button -->
-                        <li class="contact-form-btn-container">
-                            <button id="contact-form-submit-btn" type="submit">Submit</button>
-                        </li>
-                    </ul>
-                </form>
-        </section> 
+        <!-- Contact Form Section -->
+        <section class="contact-form-section">
+            <div class="form-container centered">
+                <div class="form-content">
+                    <div class="form-header">
+                        <h2>Send us a Message</h2>
+                        <p>Have a question or want to work together? Fill out the form below and we'll get back to you shortly.</p>
+                    </div>
+                    
+                    <div class="contact-form-container">
+                        <form class="contact-form">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="name">
+                                        <i class="fas fa-user"></i>
+                                        Name *
+                                    </label>
+                                    <input id="name" type="text" placeholder="Your full name" required>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="email">
+                                        <i class="fas fa-envelope"></i>
+                                        Email *
+                                    </label>
+                                    <input id="email" type="email" placeholder="your.email@example.com" maxlength="255" required>
+                                </div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="subject">
+                                    <i class="fas fa-tag"></i>
+                                    Subject *
+                                </label>
+                                <input id="subject" type="text" placeholder="What's this about?" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message">
+                                    <i class="fas fa-comment"></i>
+                                    Message *
+                                </label>
+                                <textarea id="message" name="user_message" placeholder="Tell us more about your inquiry..." required></textarea>
+                            </div>
+                            
+                            <div class="form-actions">
+                                <button id="contact-form-submit-btn" type="submit" class="submit-btn">
+                                    <span>Send Message</span>
+                                    <i class="fas fa-paper-plane"></i>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                
+                <!-- Contact Features -->
+                <div class="contact-features">
+                    <div class="feature">
+                        <div class="feature-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <h4>Quick Response</h4>
+                        <p>We aim to respond to all inquiries within 24 hours during business days.</p>
+                    </div>
+                    
+                    <div class="feature">
+                        <div class="feature-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h4>Privacy Protected</h4>
+                        <p>Your information is secure and will never be shared with third parties.</p>
+                    </div>
+                    
+                    <div class="feature">
+                        <div class="feature-icon">
+                            <i class="fas fa-headset"></i>
+                        </div>
+                        <h4>Expert Support</h4>
+                        <p>Our knowledgeable team is ready to help with any questions you may have.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
     <!-- Footer content -->
     <footer>
