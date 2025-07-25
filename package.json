@@ -1,0 +1,16 @@
+{
+  "name": "athena-collective",
+  "version": "1.0.0",
+  "description": "Athena Collective - Educational website focused on self-learning techniques",
+  "main": "index.html",
+  "scripts": {
+    "dev": "live-server --host=localhost --port=3000 --open=/index.html",
+    "start": "npm run dev"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  },
+  "keywords": ["education", "self-learning", "static-website"],
+  "author": "",
+  "license": "ISC"
+}
